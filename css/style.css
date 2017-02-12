@@ -1,0 +1,41 @@
+.defaut{
+  border-style: solid;
+  border-color: #AAAAAA;
+  border-width: 2px;
+}
+
+.selection{
+  border-style: solid;
+  border-color: #AAAAAA;
+  border-width: 2px;
+  background-color: #8888DD;
+}
+
+.ui-dialog .ui-dialog-title {
+  text-align: center;
+  width: 100%;
+}
+
+td{
+  cursor: pointer;
+}
+
+#formModifCoureur td {
+  text-align: center;
+}
+
+.lmsCoureurs {
+  min-height: 500px;
+  height:500px;
+  min-width:80%;
+  width:80%;
+}
+
+.divConteneur{
+  min-height:350px;
+  height:350px;/*pour IE qui comprend rien, et qui ne reconnait pas min-height, mais qui comprend mal height*/
+  min-width:95%;
+  width:95%;/*pour IE qui comprend rien*/
+  margin: 5px;  
+  display:none;
+}
